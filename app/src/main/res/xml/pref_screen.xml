@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Privzeta Šola"
+        android:key="default_school"
+        android:defaultValue="none"
+        android:entries="@array/schoolNames"
+        android:entryValues="@array/schoolValues"
+        android:summary="%s"/>
+    <ListPreference
+        android:title="Privzeti Razred"
+        android:key="default_class"
+        android:defaultValue="none"
+        android:entries="@array/ersNames"
+        android:entryValues="@array/ersValues"
+        android:summary="%s"/>
+    <ListPreference
+        android:title="Privzeta razredna skupina"
+        android:key="default_class_group"
+        android:defaultValue="none"
+        android:entries="@array/classGroup"
+        android:entryValues="@array/classGroupValues"
+        android:summary="%s"/>
+
+</PreferenceScreen>
